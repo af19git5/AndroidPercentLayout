@@ -22,7 +22,7 @@ And check your application minSdk must be greater than 24.
 
 ## How To Use
 
-Example: 
+**Example:** 
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -48,5 +48,38 @@ Example:
 
 Use example you will get this layout preview. 
 
-<img src="images/example.png.png" width="200">
+<img src="images/example.png" alt="example" width="300" />
 
+* app:look_with="width/height" -> Look length with width or height. Default is width.
+
+* app:length_percent="float" ->  Width or Height length percent. Default is 1.
+
+**Support Layout**
+
+* PercentButton
+* PercentConstraintLayout
+* PercentEditText
+* PercentGridLayout
+* PercentImageView
+* PercentLinearLayout
+* PercentRelativeLayout
+* PercentTextView
+* PercentView
+
+## License
+
+```
+Copyright 2022 Jimmy Kang
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
